@@ -38,3 +38,38 @@ exports.kineticEnergy = (bulletVelocity, bulletMass) => {
 
   return 0.5 * bulletMass * exponent(bulletVelocity, 2);
 };
+
+// Pounds to Grains Conversion Formula
+exports.poundsToGrains = pounds => {
+  return pounds * 7000;
+};
+
+// Ounces to Grains Conversion Formula
+exports.ouncesToGrains = ounces => {
+  return ounces * 437.5;
+};
+
+// Grains to Ounces Conversion Formula
+exports.grainsToOunces = grains => {
+  return grains * 0.00229;
+};
+
+// Grams to Grains Conversion Formula
+exports.gramsToGrains = grams => {
+  return grams * 15.4324;
+};
+
+// Grains to Grams Conversion Formula
+exports.grainsToGrams = grains => {
+  return grains * 0.648;
+};
+
+// Inches to Millimeters Conversion Formula
+exports.inchesToMillimeters = inches => {
+  return inches * 25.4;
+};
+
+// Millimeters to Inches Conversion Formula
+exports.millimetersToInches = millimeters => {
+  return millimeters * 0.03937;
+};
