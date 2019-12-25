@@ -32,17 +32,18 @@ exports.policePersonnelRate = (policePersonnel, population) => {
 // BALLISTICS FORMULAS
 // Kinetic Energy Formula
 exports.kineticEnergy = (bulletVelocity, bulletMass) => {
-  const exponent = (base, power) => {
-    return base ** power;
-  };
-
-  return 0.5 * bulletMass * exponent(bulletVelocity, 2);
+  return 0.5 * bulletMass * Math.pow(bulletVelocity, 2);
 };
 
 // Pounds to Grains Conversion Formula
 exports.poundsToGrains = pounds => {
   return pounds * 7000;
 };
+
+// Grains to Pounds Conversion Formula
+export.grainsToPounds = grains => {
+  return grains / 7000;
+}
 
 // Ounces to Grains Conversion Formula
 exports.ouncesToGrains = ounces => {
