@@ -4,46 +4,26 @@
 
 // Crime Rate Formula
 exports.crimeRate = (crimesReported, population) => {
-  /*
-  x is assigned # of crimes reported
-  y is assigned # of population
-  */
   return (crimesReported / population) * 100000;
 };
 
 // Clearance Rate Formula
-exports.clearanceRate = (x, y) => {
-  /*
-  x is assigned # of reported crimes cleared
-  y is assigned # of crimes reported
-  */
-  return (x / y) * 100;
+exports.clearanceRate = (reportedCrimedCleared, crimesReported) => {
+  return (reportedCrimedCleared / crimesReported) * 100;
 };
 
 // Arrest Rate Formula
-exports.arrestRate = (x, y) => {
-  /*
-  x is assigned # of arrests
-  y is assigned # of total population
-  */
-  return (x / y) * 100000;
+exports.arrestRate = (arrests, population) => {
+  return (arrests / population) * 100000;
 };
 
 // Crime Trend Rate Formula
 // This formula is also referred to as the Percent Change Formula
-exports.crimeTrendRate = (x, y) => {
-  /*
-  x is assigned current year value
-  y is assigned prev year value
-  */
-  return ((x - y) / y) * 100;
+exports.crimeTrendRate = (currentYear, previousYear) => {
+  return ((currentYear - previousYear) / previousYear) * 100;
 };
 
 // Police Personnel Rate Formula
-exports.policePersonnelRate = (x, y) => {
-  /*
-  x is assigned # police personnel
-  y is assigned # of total population
-  */
-  return (x / y) * 1000;
+exports.policePersonnelRate = (policePersonnel, population) => {
+  return (policePersonnel / population) * 1000;
 };
