@@ -41,9 +41,9 @@ exports.poundsToGrains = pounds => {
 };
 
 // Grains to Pounds Conversion Formula
-export.grainsToPounds = grains => {
+exports.grainsToPounds = grains => {
   return grains / 7000;
-}
+};
 
 // Ounces to Grains Conversion Formula
 exports.ouncesToGrains = ounces => {
