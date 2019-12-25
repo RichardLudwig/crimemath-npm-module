@@ -28,3 +28,13 @@ exports.crimeTrendRate = (currentYear, previousYear) => {
 exports.policePersonnelRate = (policePersonnel, population) => {
   return (policePersonnel / population) * 1000;
 };
+
+// BALLISTICS FORMULAS
+// Kinetic Energy Formula
+exports.kineticEnergy = (bulletVelocity, bulletMass) => {
+  const exponent = (base, power) => {
+    return base ** power;
+  };
+
+  return 0.5 * bulletMass * exponent(bulletVelocity, 2);
+};
