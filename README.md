@@ -1,1 +1,1 @@
-# crime-math-npm-module
+# crimemath-npm-module

@@ -1,5 +1,5 @@
 {
-  "name": "crime-math",
+  "name": "crimemath",
   "version": "1.0.9",
   "description": "An npm package that allows users to access mathematical formulas for criminological/criminalistic/public safety purposes.",
   "main": "index.js",
