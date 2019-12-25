@@ -1,0 +1,23 @@
+{
+  "name": "crime-math",
+  "version": "1.0.7",
+  "description": "An npm package that allows users to access mathematical formulas for criminological/criminalistic/public safety purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crime",
+    "math",
+    "formulas",
+    "criminology",
+    "criminalistics",
+    "safety",
+    "prevention"
+  ],
+  "author": "Richard Ludwig (https://richardludwig.com)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
