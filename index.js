@@ -3,12 +3,12 @@
 // Consult the technical documentation to learn how to "call" these functions, and contact me at my website (https://richardludwig.com) if there is a formula you would like me to add to the module.
 
 // Crime Rate Formula
-exports.crimeRate = (x, y) => {
+exports.crimeRate = (crimesReported, population) => {
   /*
   x is assigned # of crimes reported
   y is assigned # of population
   */
-  return (x / y) * 100000;
+  return (crimesReported / population) * 100000;
 };
 
 // Clearance Rate Formula
