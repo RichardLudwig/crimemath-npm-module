@@ -1,6 +1,6 @@
-// This package contains mathematical formulas, for users to quickly calculate outputs they need for criminological/criminalistic/public safety research purposes. This package is geared towards students studying these topics but anyone is welcome to use this package. There will simply be a learning curve if you are no used to using math in this way.
+// This package contains mathematical formulas for users to quickly calculate outputs they need for criminological/criminalistic/public safety research purposes. This package is geared towards students studying these topics but anyone can use this package. There will simply be a learning curve if you are no used to using math in this way.
 
-// Contact me at my website (https://richardludwig.com) if there is a formula you would like me to add to the module.
+// Contact me at my [website](https://richardludwig.com) if there is a formula you would like me to add to the module.
 
 // GENERAL CRIMINOLOGY FORMULAS
 // Crime Rate Formula
@@ -73,4 +73,11 @@ exports.inchesToMillimeters = inches => {
 // Millimeters to Inches Conversion Formula
 exports.millimetersToInches = millimeters => {
   return millimeters * 0.03937;
+};
+
+// FORENSIC TOXICOLOGY FORMULAS
+// BAC Formula (Widmark)
+// for genderConstant, assign 0.73 for men and 0.66 for women
+exports.bacLevel = (ouncesAlcoholConsumed, bodyweightPounds, genderConstant, hoursSinceStartedDrinking) => {
+  return ((ouncesAlcoholConsumed * 5.14 / bodyweightPounds * genderConstant) - (0.015 * hoursSinceStartedDrinking));
 };

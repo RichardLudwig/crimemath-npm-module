@@ -94,3 +94,13 @@ console.log(result);
 let result = millimetersToInches(millimeters);
 console.log(result);
 ```
+
+
+## FORENSIC TOXICOLOGY FORMULAS
+
+```javascript
+// BAC Formula (Widmark)
+// for genderConstant, assign 0.73 for men and 0.66 for women
+let result = bacLevel(ouncesAlcoholConsumed, bodyweightPounds, genderConstant, hoursSinceStartedDrinking);
+console.log(result);
+```
