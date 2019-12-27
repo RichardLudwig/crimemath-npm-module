@@ -1,6 +1,6 @@
 // This package contains mathematical formulas, for users to quickly calculate outputs they need for criminological/criminalistic/public safety research purposes. This package is geared towards students studying these topics but anyone is welcome to use this package. There will simply be a learning curve if you are no used to using math in this way.
 
-// Consult the technical documentation (coming soon) to learn how to "call" these functions, and contact me at my website (https://richardludwig.com) if there is a formula you would like me to add to the module.
+// Contact me at my website (https://richardludwig.com) if there is a formula you would like me to add to the module.
 
 // GENERAL CRIMINOLOGY FORMULAS
 // Crime Rate Formula
@@ -9,8 +9,8 @@ exports.crimeRate = (crimesReported, population) => {
 };
 
 // Clearance Rate Formula
-exports.clearanceRate = (reportedCrimedCleared, crimesReported) => {
-  return (reportedCrimedCleared / crimesReported) * 100;
+exports.clearanceRate = (reportedCrimesCleared, crimesReported) => {
+  return (reportedCrimesCleared / crimesReported) * 100;
 };
 
 // Arrest Rate Formula
