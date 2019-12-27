@@ -1,11 +1,11 @@
-##CRIMEMATH NPM Module
+# CRIMEMATH NPM Module
 
 This package contains mathematical formulas for users to quickly calculate outputs they need for criminological/criminalistic/public safety research purposes. This package is geared towards students studying these topics but anyone can use this package. There will simply be a learning curve if you are no used to using math in this way.
 
 Contact me at my [website](https://richardludwig.com) if there is a formula you would like me to add to the module.
 
 
-###GENERAL CRIMINOLOGY FORMULAS
+## GENERAL CRIMINOLOGY FORMULAS
 
 ```javascript
 //Crime Rate Formula
@@ -39,7 +39,7 @@ console.log(result);
 ```
 
 
-###BALLISTICS FORMULAS
+## BALLISTICS FORMULAS
 
 ```javascript
 // Kinetic Energy Formula
